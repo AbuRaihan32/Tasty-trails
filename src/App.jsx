@@ -1,10 +1,19 @@
 import './App.css'
+import Banner from './components/Banner/Banner'
+import Navbar from './components/Navbar/Navbar'
+import Recipes from './components/Recipes/Recipes'
 
 function App() {
 
   return (
     <>
-    <h1 className='text-5xl font-bold'>hello world</h1>
+      <div className='max-w-[1260px] mx-auto border'>
+        <div className='w-[90%] mx-auto'>
+          <Navbar></Navbar>
+          <Banner></Banner>
+          <Recipes></Recipes>
+        </div>
+      </div>
     </>
   )
 }
