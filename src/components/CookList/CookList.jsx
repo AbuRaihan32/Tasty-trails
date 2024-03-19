@@ -1,16 +1,27 @@
-
-const CookList = ({want, idx, handlePreparing}) => {
+import PropTypes from 'prop-types';
+const CookList = ({ want, idx, handlePreparing }) => {
     return (
-        <div className="bg-[#28282808] mt-1">
-            <ul className="flex justify-around items-center px-4 py-3 mb-2">
-                <li className="w-[10%]">{idx + 1}</li>
-                <li className="w-[25%]">{want.food_title}</li>
-                <li className="w-[20%]">{want.cooking_time.slice(0,6)}</li>
-                <li className="w-[20%]">{want.calories} cal</li>
-                <li className="w-[25%]"><button onClick={()=>{handlePreparing(want.id)}} className="btn bg-[#0BE58A] rounded-full">Preparing</button></li>
-            </ul>
+        <div className="bg-[#28282808] mt-2 px-2 py-2">
+            <table>
+                <tbody>
+                    <tr className="">
+                        <td className="w-[10%]">{idx + 1}</td>
+                        <td className="w-[25%]">{want.food_title}</td>
+                        <td className="w-[20%]">{want.cooking_time.slice(0, 6)}</td>
+                        <td className="w-[20%]">{want.calories} cal</td>
+                        <td className="w-[25%]">
+                            <button onClick={() => { handlePreparing(want.id) }} className="btn bg-[#0BE58A] rounded-full">Preparing</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     );
 };
+CookList.propTypes = {
+    want: PropTypes.object.isRequired,
+    idx: PropTypes.number,
+    handlePreparing: PropTypes.func
+}
 
 export default CookList;

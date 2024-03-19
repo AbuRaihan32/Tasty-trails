@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div className='max-w-[1260px] mx-auto border'>
+      <div className='max-w-[1260px] mx-auto'>
         <div className='w-[90%] mx-auto'>
           <Navbar></Navbar>
           <Banner></Banner>

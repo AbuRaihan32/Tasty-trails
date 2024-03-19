@@ -1,8 +1,8 @@
-
+import PropTypes from 'prop-types';
 import { FaRegClock } from "react-icons/fa";
 import { RiFireLine } from "react-icons/ri";
 const Recipe = ({recipe, handleCookBtn}) => {
-    const {id, food_img, food_title, food_description, ingredients, food_details, cooking_time, calories} = recipe;
+    const {food_img, food_title, food_description, ingredients, cooking_time, calories} = recipe;
     return (
         <div className="h">
             <div className="card bg-base-100 shadow-2xl text-start p-5 space-y-1">
@@ -12,11 +12,11 @@ const Recipe = ({recipe, handleCookBtn}) => {
                     <p className="">{food_description}</p>
                     <hr />
 
-                    <h1 className="text-xl font-semibold">Ingredients: {ingredients}</h1>
+                    <h1 className="text-xl font-semibold">Ingredients: {ingredients.length}</h1>
                     <ul className="ml-8 list-disc">
-                        <li>{food_details.cuisine}</li>
-                        <li>{food_details.difficulty}</li>
-                        <li>{food_details.spice_level}</li>
+                        <li>{ingredients[0].slice(0, 27)}..</li>
+                        <li>{ingredients[1]}</li>
+                        <li>{ingredients[2]}</li>
                     </ul>
 
                     <hr />
@@ -38,5 +38,9 @@ const Recipe = ({recipe, handleCookBtn}) => {
         </div>
     );
 };
+Recipe.propTypes = {
+    recipe: PropTypes.object.isRequired,
+    handleCookBtn: PropTypes.func
+}
 
 export default Recipe;

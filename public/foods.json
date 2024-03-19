@@ -1,87 +1,97 @@
 [
-    {
-      "id": 1,
-      "food_img": "https://i.ibb.co/3dH96zT/pexels-dana-tentis-262959.jpg",
-      "food_title": "Spaghetti Carbonara",
-      "food_description": "Classic Italian pasta dish with creamy sauce, bacon, and cheese.",
-      "ingredients": 7,
-      "food_details": {
-        "cuisine": "Italian",
-        "difficulty": "Intermediate",
-        "spice_level": "Mild"
-      },
-      "cooking_time": "30 minutes",
-      "calories": 450
-    },
-    {
-      "id": 2,
-      "food_img": "https://i.ibb.co/6wybjZg/pexels-sydney-troxell-718742.jpg",
-      "food_title": "Grilled Salmon",
-      "food_description": "Juicy grilled salmon fillets seasoned with herbs and lemon.",
-      "ingredients": 5,
-      "food_details": {
-        "cuisine": "Seafood",
-        "difficulty": "Easy",
-        "spice_level": "Mild"
-      },
-      "cooking_time": "20 minutes",
-      "calories": 300
-    },
-    {
-      "id": 3,
-      "food_img": "https://i.ibb.co/m9DC7md/pexels-jonathan-borba-2983101.jpg",
-      "food_title": "Chicken Caesar Salad",
-      "food_description": "Fresh romaine lettuce, grilled chicken, croutons.",
-      "ingredients": 6,
-      "food_details": {
-        "cuisine": "American",
-        "difficulty": "Easy",
-        "spice_level": "Mild"
-      },
-      "cooking_time": "15 minutes",
-      "calories": 350
-    },
-    {
-      "id": 4,
-      "food_img": "https://i.ibb.co/Zgnwk45/pexels-omar-mahmood-106343.jpg",
-      "food_title": "Vegetable Stir-Fry",
-      "food_description": "Colorful mix of fresh vegetables stir-fried to perfection.",
-      "ingredients": 8,
-      "food_details": {
-        "cuisine": "Asian",
-        "difficulty": "Intermediate",
-        "spice_level": "Medium"
-      },
-      "cooking_time": "25 minutes",
-      "calories": 250
-    },
-    {
-      "id": 5,
-      "food_img": "https://i.ibb.co/WFqgKYx/pexels-dana-tentis-691114.jpg",
-      "food_title": "Margherita Pizza",
-      "food_description": "Simple yet delicious pizza topped with fresh tomatoes.",
-      "ingredients": 4,
-      "food_details": {
-        "cuisine": "Italian",
-        "difficulty": "Easy",
-        "spice_level": "Mild"
-      },
-      "cooking_time": "18 minutes",
-      "calories": 400
-    },
-    {
-      "id": 6,
-      "food_img": "https://i.ibb.co/xSLRSYC/pexels-mariana-kurnyk-1775043.jpg",
-      "food_title": "Beef Tacos",
-      "food_description": "Savory beef filling wrapped in warm tortillas with fresh toppings.",
-      "ingredients": 9,
-      "food_details": {
-        "cuisine": "Mexican",
-        "difficulty": "Intermediate",
-        "spice_level": "Medium"
-      },
-      "cooking_time": "35 minutes",
-      "calories": 500
-    }
-  ]
-  
+  {
+    "id": 1,
+    "food_img": "https://i.ibb.co/3dH96zT/pexels-dana-tentis-262959.jpg",
+    "food_title": "Spaghetti Carbonara",
+    "food_description": "Classic Italian pasta dish with creamy sauce, bacon, and cheese.",
+    "ingredients": [
+      "300g pasta",
+      "200g bacon",
+      "3 eggs",
+      "100g grated Parmesan cheese",
+      "2 cloves garlic",
+      "2 tablespoons olive oil",
+      "Salt and black pepper to taste"
+    ],
+    "cooking_time": "30 minutes",
+    "calories": 450
+  },
+  {
+    "id": 2,
+    "food_img": "https://i.ibb.co/6wybjZg/pexels-sydney-troxell-718742.jpg",
+    "food_title": "Grilled Salmon",
+    "food_description": "Juicy grilled salmon fillets seasoned with herbs and lemon.",
+    "ingredients": [
+      "4 salmon fillets (about 200g each)",
+      "1 lemon (sliced)",
+      "2 tablespoons olive oil",
+      "Salt and black pepper to taste"
+    ],
+    "cooking_time": "20 minutes",
+    "calories": 300
+  },
+  {
+    "id": 3,
+    "food_img": "https://i.ibb.co/m9DC7md/pexels-jonathan-borba-2983101.jpg",
+    "food_title": "Chicken Caesar Salad",
+    "food_description": "Fresh romaine lettuce, grilled chicken, croutons.",
+    "ingredients": [
+      "1 head romaine lettuce",
+      "2 grilled chicken breasts (sliced)",
+      "1 cup croutons",
+      "1/2 cup grated Parmesan cheese",
+      "Caesar dressing"
+    ],
+    "cooking_time": "15 minutes",
+    "calories": 350
+  },
+  {
+    "id": 4,
+    "food_img": "https://i.ibb.co/Zgnwk45/pexels-omar-mahmood-106343.jpg",
+    "food_title": "Vegetable Stir-Fry",
+    "food_description": "Colorful mix of fresh vegetables stir-fried to perfection.",
+    "ingredients": [
+      "Assorted vegetables (bell peppers, broccoli, carrots, onions)",
+      "120ml soy sauce",
+      "2 cloves garlic (minced)",
+      "1 teaspoon grated ginger",
+      "2 tablespoons olive oil",
+      "Salt and pepper to taste"
+    ],
+    "cooking_time": "25 minutes",
+    "calories": 250
+  },
+  {
+    "id": 5,
+    "food_img": "https://i.ibb.co/WFqgKYx/pexels-dana-tentis-691114.jpg",
+    "food_title": "Margherita Pizza",
+    "food_description": "Simple yet delicious pizza topped with fresh tomatoes.",
+    "ingredients": [
+      "Pizza dough",
+      "Tomatoes",
+      "Mozzarella cheese",
+      "Fresh basil leaves"
+    ],
+    "cooking_time": "18 minutes",
+    "calories": 400
+  },
+  {
+    "id": 6,
+    "food_img": "https://i.ibb.co/xSLRSYC/pexels-mariana-kurnyk-1775043.jpg",
+    "food_title": "Beef Tacos",
+    "food_description": "Savory beef filling wrapped in warm tortillas with fresh toppings.",
+    "ingredients": [
+      "500g ground beef",
+      "Tortillas",
+      "Lettuce",
+      "Tomato",
+      "Cheese",
+      "Onion",
+      "Taco seasoning",
+      "Sour cream",
+      "Salsa"
+    ],
+    "cooking_time": "35 minutes",
+    "calories": 500
+  }
+]

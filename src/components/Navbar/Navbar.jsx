@@ -1,7 +1,7 @@
 import { CgProfile } from "react-icons/cg";
 const Navbar = () => {
     return (
-        <div className="">
+        <div className="md:pt-5">
             <div className="navbar bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -15,7 +15,7 @@ const Navbar = () => {
                             <li><a>Contact</a></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">Recipe Calories</a>
+                    <a className="btn btn-ghost text-xl">Tasty Trails</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
@@ -26,7 +26,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <input className="bg-[#150B2B0D] px-4 py-1 rounded-full outline-none mr-4" type="text" name="" id="" placeholder="Search" />
+                    <input className="bg-[#150B2B0D] px-4 py-2 hidden md:block lg:block rounded-full outline-none mr-4" type="text" name="" id="" placeholder="Search" />
                     <div className="bg-[#0BE58A] p-2 rounded-full">
                         <CgProfile></CgProfile>
                     </div>
